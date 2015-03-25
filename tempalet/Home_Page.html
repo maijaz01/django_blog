@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+<head>
+	<title>This Is a Home Page</title>
+</head>
+
+<body>
+	<h3>This is django Project</h3>
+	hello world! <strong>{{ boldmessage }}</strong><br />
+	<a href="/blog/about">About</a><br />
+	<img src="{% static "images/rango.jpg" %}">
+
+</body>
+</html>
