@@ -1,54 +1,29 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
+# mac cruft
+.DS_Store
+#emacs cruft
+*~
+*#*
+*.pyc
+*flymake.py
+.ropeproject
+# wing cruft
+*.wpr
+#virtualenv cruft
+bin
+lib
+include
+bootstrap.py
+develop-eggs
 .installed.cfg
+#python cruft
 *.egg
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
+*.egg-info
+.noseids
+*prof*
 pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
+#test cruft
+*_test
 .coverage
-.cache
-nosetests.xml
-coverage.xml
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
+# backup cruft
+*.old
+setup.cfg

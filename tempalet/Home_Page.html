@@ -8,10 +8,25 @@
 </head>
 
 <body>
+<h1>This is a list of eduucation</h1>
+	{% if categories %}
+	<ul>
+		{% for category in categories %}
+		<li>
+			<a href="/rango/category/{{ category.slug }}">{{ category.name }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+	{% else %}
+	<strong>There are no categories present.</strong>
+        {% endif %}
+         <a href="/blog/about/">About</a>
+    </body>
+<!-- 
 	<h3>This is django Project</h3>
 	hello world! <strong>{{ boldmessage }}</strong><br />
 	<a href="/blog/about">About</a><br />
 	<img src="{% static "images/rango.jpg" %}">
 
-</body>
+</body> -->
 </html>
